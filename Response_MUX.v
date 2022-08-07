@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    03:09:28 04/24/2022 
-// Design Name: 
-// Module Name:    Resp_MUX 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module Resp_MUX(CLK,RST,HRESP,HRESP_1,HRESP_2,HRESP_3,SEL);
 
 input [1:0]SEL;
