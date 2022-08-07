@@ -1,63 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    02:57:38 04/24/2022 
-// Design Name: 
-// Module Name:    Slave_4K 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    02:55:25 04/24/2022 
-// Design Name: 
-// Module Name:    Slave_2K 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    02:49:08 04/24/2022 
-// Design Name: 
-// Module Name:    Slave_2K_Split 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 
 `define IDLE 1'b0
 `define START 1'b1
@@ -128,9 +69,7 @@ always @ (posedge CLK or posedge RST )
 				
 				IDLE:begin
 				
-					//HRDATA <= 0;
 					HRESP <= `OKAY;
-					//HSPLIT <= 0;
 					HREADY <= 1'bz;
 					state <= (SEL == 1)?ACTIVE:IDLE;		
 			
@@ -147,9 +86,6 @@ always @ (posedge CLK or posedge RST )
 							begin
 								HREADY <= 1'b1; // toggles the HREADY line only if selected as active device
 								HRESP <= `OKAY;
-								
-								//HSPLIT <= 0;
-								
 								state <= (HWRITE == 1)?WRITE:READ;
 
 							end
@@ -213,7 +149,7 @@ always @ (posedge CLK or posedge RST )
 							state <= ACTIVE;
 						end
 								
-					if(HRDATA == S_REG[S_ADDR] /*&& MLOCK == 1 && rand_split == 0*/)
+					if(HRDATA == S_REG[S_ADDR])
 						begin
 							HRESP <= `OKAY;
 							HREADY <= 1'b1;
