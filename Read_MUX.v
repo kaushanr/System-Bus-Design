@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    03:05:57 04/24/2022 
-// Design Name: 
-// Module Name:    Read_MUX 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module Read_MUX(CLK,RST,HRDATA,HRDATA_1,HRDATA_2,HRDATA_3,SEL);
 
 input [1:0]SEL;
