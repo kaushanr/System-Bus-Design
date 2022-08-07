@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module Write_MUX(CLK,RST,HWDATA,HWDATA_1,HWDATA_2,SEL);
 
 input [1:0]SEL;
