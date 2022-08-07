@@ -1,23 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    03:03:45 04/24/2022 
-// Design Name: 
-// Module Name:    Write_MUX 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 module Write_MUX(CLK,RST,HWDATA,HWDATA_1,HWDATA_2,SEL);
 
 input [1:0]SEL;
