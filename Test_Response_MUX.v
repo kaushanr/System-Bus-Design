@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   21:25:57 04/24/2022
-// Design Name:   Resp_MUX
-// Module Name:   /home/ise/Bus_Architecture_2/Test_Resp_MUX.v
-// Project Name:  Bus_Architecture_2
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: Resp_MUX
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module Test_Resp_MUX;
 
 	// Inputs
