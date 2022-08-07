@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   19:23:23 05/08/2022
-// Design Name:   SPLIT_SLAVE_2K
-// Module Name:   F:/DSD_Assignment/Bus_Architecture/TEST_SPLIT_SLAVE.v
-// Project Name:  Bus_Architecture
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: SPLIT_SLAVE_2K
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module Test_Slave_2K_Split;
 
 	// Inputs
