@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    02:49:08 04/24/2022 
-// Design Name: 
-// Module Name:    Slave_2K_Split 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 
 `define IDLE 1'b0
 `define START 1'b1
@@ -107,7 +88,6 @@ always @ (posedge CLK or posedge RST )
 				ACTIVE:begin
 					
 					rand_split <= USPLIT;
-					//HRDATA <= 32'bx;
 					save_master <= HMAS;
 					HRESP <= `OKAY;
 					HREADY <= 1'b1;
@@ -200,9 +180,7 @@ always @ (posedge CLK or posedge RST )
 						end
 					else if(rand_split == 1'b1)
 						begin
-							//save_master <= HMAS;
 							HRESP <= `SPLIT;
-							//HREADY <= 1'bz;
 							state <= SPLITX;
 						end
 					else
@@ -215,8 +193,6 @@ always @ (posedge CLK or posedge RST )
 				
 				SPLITX:begin
 					
-					//save_master <= HMAS;
-					//HRESP <= `SPLIT;
 					HREADY <= 1'bz;
 					
 					rand_split <= USPLIT;
@@ -224,7 +200,7 @@ always @ (posedge CLK or posedge RST )
 						begin
 							HSPLIT <= save_master;
 							HRESP <= `OKAY;
-							if(/*HREADY == 1 &&*/ SEL == 1 && HMAS == save_master)
+							if(SEL == 1 && HMAS == save_master)
 								begin
 									HREADY <= 1'b0;
 									HRESP <= `OKAY;
