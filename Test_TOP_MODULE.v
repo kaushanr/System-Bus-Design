@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   01:32:06 05/02/2022
-// Design Name:   TOP_MODULE
-// Module Name:   /home/ise/Bus_Architecture_2/Test_TOP_MODULE.v
-// Project Name:  Bus_Architecture_2
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: TOP_MODULE
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module Test_TOP_MODULE;
 
 	// Inputs
