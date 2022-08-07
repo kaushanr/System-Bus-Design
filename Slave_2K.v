@@ -67,10 +67,8 @@ always @ (posedge CLK or posedge RST )
 			case(state)
 				
 				IDLE:begin
-				
-					//HRDATA <= 0;
+
 					HRESP <= `OKAY;
-					//HSPLIT <= 0;
 					HREADY <= 1'bz;
 					state <= (SEL == 1)?ACTIVE:IDLE;		
 			
@@ -87,9 +85,6 @@ always @ (posedge CLK or posedge RST )
 							begin
 								HREADY <= 1'b1; // toggles the HREADY line only if selected as active device
 								HRESP <= `OKAY;
-								
-								//HSPLIT <= 0;
-								
 								state <= (HWRITE == 1)?WRITE:READ;
 
 							end
