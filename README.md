@@ -68,3 +68,6 @@ The figures above show a breif glimpse of a SPLIT transaction taking place betwe
 ## Software
 The entire codebase was written and synthesized in Xilinx ISE Design Suite 14.7. <br>
 All waveform simulations were performed in the integrated ISim platform.
+
+## References
+ARM Developer Documentation : [AMBA Specification (Rev 2,0)](https://developer.arm.com/documentation/ihi0011/a/)
