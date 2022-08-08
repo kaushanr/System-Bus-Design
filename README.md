@@ -31,6 +31,9 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ## Arbiter Module Design
 ### I/O Definitions
+<p align="center">
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/e99b10418b60de18b7bc6e130391b9a7626ba97e/docs/images/Arbiter%20pinout.jpg">
+</p><br>
 
 ### Arbitration
 
