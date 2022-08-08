@@ -31,6 +31,8 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="569"/>
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="439"/>
 </p><br>
-
+<p align = "center">
+Master  |  Slave States
+</p>
 ## Top Level Integration 
 ### Write, Split, Read Operation
