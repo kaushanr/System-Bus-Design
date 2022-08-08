@@ -46,7 +46,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ### State Transitions
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="430"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="440"/>
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="340"/>
 </p>
 <p align = "center">
