@@ -12,3 +12,8 @@ EN5102 - Digital System Design - Group Project
 
 ![Overview](https://github.com/kaushanr/System-Bus-Design/blob/b635b9a3d2be1b8cbe0ab97bc9e9fe662c2a2057/docs/images/Bus_Design_Final.bmp)
 --->
+
+This is our version of a system bus architecture, custom built with a selection of custom protocols.<br>
+The design has been inspired by the design and functionality of the AMBA Spec 2.0, AHB/APB buses. Hence it consists of a blend of characteristics native to those bus arcitectures, albeit with significant performance and functionality limitations. <br>
+
+A more detailed report on the performance is available here.
