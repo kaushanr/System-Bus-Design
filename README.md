@@ -17,7 +17,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ### Features & Limitations
 <table align="center">
-<table | Features | Design Limitations |
+<| Features | Design Limitations |
 | :---: | :---: |
 | Priority requests | Data transfers limited to 32-bit WORD sized packets |
 | Write / read transactions | No burst transfer capability |
