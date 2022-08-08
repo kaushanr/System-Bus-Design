@@ -27,10 +27,13 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 </p><br>
 
 ### State Transitions
-<figure>
 <p align="center">
+  <figure>
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="569"/>
+  <figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+  </figure>
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="439"/>
+    
 </p><br>
 
 ## Top Level Integration 
