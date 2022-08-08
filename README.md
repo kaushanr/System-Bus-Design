@@ -26,10 +26,10 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/master%20pinout.png" width="325"/> <img src="https://github.com/kaushanr/System-Bus-Design/blob/a4548d15422fd3aa55d8b20683ddb22fd5287b69/docs/images/slave%20split%20pinout.png" width="325"/> <img src= "https://github.com/kaushanr/System-Bus-Design/blob/a4548d15422fd3aa55d8b20683ddb22fd5287b69/docs/images/slave%20pinout.png" width="325"/>
 </p><br>
 
-### State Transitions Diagrams
+### State Transitions
 
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="569"/> <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="439"/> 
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="569"/><em>Master States</em> <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="439"/><em>Split Slave States</em>
 </p><br>
 
 ## Top Level Integration 
