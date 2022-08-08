@@ -19,9 +19,10 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 <strong>A more detailed report on the performance is available [here](https://github.com/kaushanr/System-Bus-Design/blob/92e26f4ede344538dfdde3f7720f13ace26bae47/System%20Bus%20Design.pdf).</strong>
 
 ### Address Mapping
-
+<p align="center">
 ![](https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/Address%20Mapping.png)
-
+</p>
 ### Master Design
-
+<p align="center">
 ![](https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/master%20pinout.png)
+</p>
