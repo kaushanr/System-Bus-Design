@@ -17,3 +17,11 @@ This is our version of a system bus architecture, custom built with a selection 
 The design has been inspired by the design and functionality of the AMBA Spec 2.0, AHB/APB buses. Hence it consists of a blend of characteristics native to those bus arcitectures, albeit with significant performance and functionality limitations. <br>
 
 A more detailed report on the performance is available here.
+
+### Address Mapping
+
+![](https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/Address%20Mapping.png)
+
+### Master Design
+
+![](https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/master%20pinout.png)
