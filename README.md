@@ -23,7 +23,6 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 | Write / read transactions | No burst transfer capability |
 | Split transactions | Split transactions only possible on READ operations|
 | | Designed around a specfied static clock frequency|
-<br>
   
 ### Address Mapping
 <p align="center">
