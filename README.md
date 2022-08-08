@@ -32,7 +32,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 ## Arbiter Module Design
 ### I/O Definitions
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/e99b10418b60de18b7bc6e130391b9a7626ba97e/docs/images/Arbiter%20pinout.jpg">
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/e99b10418b60de18b7bc6e130391b9a7626ba97e/docs/images/Arbiter%20pinout.jpg" width="300">
 </p><br>
 
 ### Arbitration
@@ -46,8 +46,8 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ### State Transitions
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="559"/>
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="429"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Master.bmp" width="509"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/8de9dacfc2ff533b489f6c1f14d064f9e0f7da78/docs/images/Slave_Split.bmp" width="379"/>
 </p>
 <p align = "center">
   <strong>Master  |  Slave States</strong>
@@ -56,8 +56,8 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 ## Top Level Integration 
 ### Write, Split, Read Operation
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/master%201%20-%20write%20read-split%20write%20read.png" width="450"/>
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/slave%201%20-%20write%20read-split%20write%20read.png" width="450"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/master%201%20-%20write%20read-split%20write%20read.png" width="350"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/slave%201%20-%20write%20read-split%20write%20read.png" width="350"/>
 </p><br>
 The figures above show a breif glimpse of a SPLIT transaction taking place between Master 1 and Slave 1. Bus access is handed off to Master 2 and Slave 2 to perform a WRITE operation in the intermittent time duration. More details included in report. 
 
