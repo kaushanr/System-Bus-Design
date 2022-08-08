@@ -20,7 +20,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ### Address Mapping
 <p align="center">
-  <src="https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/Address%20Mapping.png">
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/Address%20Mapping.png">
 </p>
 ### Master Design
 <p align="center">
