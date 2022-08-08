@@ -38,6 +38,6 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 ## Top Level Integration 
 ### Write, Split, Read Operation
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/master%201%20-%20write%20read-split%20write%20read.png" width="400"/>
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/slave%201%20-%20write%20read-split%20write%20read.png" width="400"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/master%201%20-%20write%20read-split%20write%20read.png" width="600"/>
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/slave%201%20-%20write%20read-split%20write%20read.png" width="600"/>
 </p>
