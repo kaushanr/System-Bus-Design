@@ -17,12 +17,12 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 
 ### Features & Limitations
 <table align="center">
-| Features | Design Limitations |
+<table | Features | Design Limitations |
 | :---: | :---: |
 | Priority requests | Data transfers limited to 32-bit WORD sized packets |
 | Write / read transactions | No burst transfer capability |
 | Split transactions | Split transactions only possible on READ operations|
-| | Designed around a specfied static clock frequency|
+| | Designed around a specfied static clock frequency|/>
 </table><br>
   
 ### Address Mapping
