@@ -39,7 +39,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 ### Arbitration
 
 <p align="center">
-  <img src="https://github.com/kaushanr/System-Bus-Design/blob/74de8b1b098fcf76b2f3bb61a2e224830a742ed3/docs/images/priority.jpg">
+  <img src="https://github.com/kaushanr/System-Bus-Design/blob/74de8b1b098fcf76b2f3bb61a2e224830a742ed3/docs/images/priority.jpg" width="340">
 </p><br>
 
 ## Master, Slave Module Design
