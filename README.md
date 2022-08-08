@@ -8,10 +8,7 @@ EN5102 - Digital System Design - Group Project
   alt="Overview"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 20px">
-<!--- https://github.com/kaushanr/System-Bus-Design/blob/b635b9a3d2be1b8cbe0ab97bc9e9fe662c2a2057/docs/images/Bus_Design_Final.bmp 
 
-![Overview](https://github.com/kaushanr/System-Bus-Design/blob/b635b9a3d2be1b8cbe0ab97bc9e9fe662c2a2057/docs/images/Bus_Design_Final.bmp)
---->
 
 This is our version of a system bus architecture, custom built with a selection of custom protocols.<br>
 The design has been inspired by the design and functionality of the AMBA Spec 2.0, AHB/APB buses. Hence it consists of a blend of characteristics native to those bus arcitectures, albeit with significant performance and functionality limitations. <br>
@@ -21,8 +18,9 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
 ### Address Mapping
 <p align="center">
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/Address%20Mapping.png">
-</p>
+</p><br>
 ### Master Design
 <p align="center">
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/6d6dda05f802caa90e11a7e7d23120b032e018dd/docs/images/master%20pinout.png">
-</p>
+</p><br>
+
