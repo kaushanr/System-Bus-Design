@@ -42,3 +42,7 @@ The design has been inspired by the design and functionality of the AMBA Spec 2.
   <img src="https://github.com/kaushanr/System-Bus-Design/blob/a1241c528bb65c62d6deb7807635494e78d010a6/docs/images/slave%201%20-%20write%20read-split%20write%20read.png" width="500"/>
 </p><br>
 The figures above show a breif glimpse of a SPLIT transaction taking place between Master 1 and Slave 1. Bus access is handed off to Master 2 and Slave 2 to perform a WRITE operation in the intermittent time duration. More details included in report. 
+
+## Software
+The entire codebase was written and synthesized in Xilinx ISE Design Suite 14.7. <br>
+All waveform simulations were performed in the integrated ISim platform.
