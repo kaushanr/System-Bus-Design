@@ -1,7 +1,5 @@
 # System Bus Design
 
-<br>
-
 ## Bus Architecture
 
 <img
